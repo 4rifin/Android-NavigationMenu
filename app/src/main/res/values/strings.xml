@@ -2,4 +2,11 @@
     <string name="app_name">NavigationMenu</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="dashBoard">DashBoard</string>
+    <string name="event">Event</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="activities">Activities</string>
+    <string name="logout">Logout</string>
+
 </resources>
