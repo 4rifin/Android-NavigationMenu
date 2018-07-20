@@ -54,36 +54,36 @@ class MainActivity : AppCompatActivity(), OnNavigationItemSelectedListener {
 
         /*text menu*/
 
-        val dasboard : String = resources.getText(R.string.dashBoard) as String
-        val event : String = resources.getText(R.string.event) as String
-        val search : String = resources.getText(R.string.search) as String
-        val settings : String = resources.getText(R.string.settings) as String
-        val activities : String = resources.getText(R.string.activities) as String
-        val logout : String = resources.getText(R.string.logout) as String
+        val dasboardMenu : String = resources.getText(R.string.dashBoard) as String
+        val eventMenu : String = resources.getText(R.string.event) as String
+        val searchMenu : String = resources.getText(R.string.search) as String
+        val settingsMenu : String = resources.getText(R.string.settings) as String
+        val activitiesMenu : String = resources.getText(R.string.activities) as String
+        val logoutMenu : String = resources.getText(R.string.logout) as String
 
         if(nav_inc.equals(db.toString())){
-            Toast.makeText(this, dasboard, Toast.LENGTH_SHORT).show()
-            tv_title.text = dasboard
+            Toast.makeText(this, dasboardMenu, Toast.LENGTH_SHORT).show()
+            tv_title.text = dasboardMenu
         }
         if(nav_inc.equals(event.toString())){
-            Toast.makeText(this, event, Toast.LENGTH_SHORT).show()
-            tv_title.text = "Event"
+            Toast.makeText(this, eventMenu, Toast.LENGTH_SHORT).show()
+            tv_title.text = eventMenu
         }
         if(nav_inc.equals(search.toString())){
-            Toast.makeText(this, search, Toast.LENGTH_SHORT).show()
-            tv_title.text = "Search"
+            Toast.makeText(this, searchMenu, Toast.LENGTH_SHORT).show()
+            tv_title.text = searchMenu
         }
         if(nav_inc.equals(settings.toString())){
-            Toast.makeText(this, settings, Toast.LENGTH_SHORT).show()
-            tv_title.text = "Settings"
+            Toast.makeText(this, settingsMenu, Toast.LENGTH_SHORT).show()
+            tv_title.text = settingsMenu
         }
         if(nav_inc.equals(activities.toString())){
-            Toast.makeText(this, activities, Toast.LENGTH_SHORT).show()
-            tv_title.text = "Activities"
+            Toast.makeText(this, activitiesMenu, Toast.LENGTH_SHORT).show()
+            tv_title.text = activitiesMenu
         }
         if(nav_inc.equals(logout.toString())){
-            Toast.makeText(this, logout, Toast.LENGTH_SHORT).show()
-            tv_title.text = "Logout"
+            Toast.makeText(this, logoutMenu, Toast.LENGTH_SHORT).show()
+            tv_title.text = logoutMenu
         }
 
         /*when (item.itemId) {
